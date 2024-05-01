@@ -1,0 +1,104 @@
+/* Employees */
+
+.Employees .lander {
+    padding: 15px 0;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+  }
+  
+.Employees .lander h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600; 
+}
+  
+.Employees .lander p {
+    color: #504646;
+}
+
+
+
+/* Employers  */
+.Employers .lander {
+    padding: 15px 0;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+  }
+  
+.Employers .lander h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600; 
+}
+  
+.Employers .lander p {
+    color: #504646;
+}
+
+/* Attorneys  */
+.Attorneys .lander {
+    padding: 15px 0;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+  }
+  
+.Attorneys .lander h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600; 
+}
+  
+.Attorneys .lander p {
+    color: #504646;
+}
+
+.Attorneys .lander img {
+    width: '35%';
+    height: 'auto'
+}
+
+
+/* Home */
+.Home .lander {
+    padding: 10px 0;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 15%;
+    display: flex;
+}
+
+.Home .lander h1 {
+    font-family: cursive;
+    font-weight: 1000; 
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 50px;
+}
+
+.Home .lander h2{
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    font-weight: 500;
+    
+}
+
+.Home .button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 8px 16px; 
+    font-size: 18px; 
+    width: 300px;
+    height: 45px;
+    margin-top: 10%;
+}
+
+.Home .button:hover{
+    background-color: #0056b3;
+    font-weight: bold;
+}

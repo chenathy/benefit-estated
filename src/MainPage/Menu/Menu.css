@@ -1,0 +1,54 @@
+/* Hamburge */
+
+.Hamburge {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 30px; 
+    height: 30px; 
+  }
+  
+  .line {
+    width: 30px; 
+    height: 3px;
+    background-color: black;
+    margin: 3px;
+    border-radius: 3px;
+  }
+
+
+  /* SidePage */
+
+.side-page {
+  width: 20%;
+  height: 25%;
+  position: fixed;
+  top: 60px;
+  right: -600px; /* Initially hidden */
+  background-color: #fef7e5;
+  transition: right 0.3s ease;
+  /* display: flex;
+  flex-direction: column;  */
+}
+
+.side-page.open {
+  right: 0; /* Visible when open */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
