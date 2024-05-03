@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, Grid, Row, Col} from 'rsuite';
-import '../ForComponent.css'
+import '../ForComponent.css';
+import attorneyLogo from './forAttorneys.png';
 
 const AttorneyComponent = () => {
     return (
@@ -13,7 +14,7 @@ const AttorneyComponent = () => {
                     <div className='lander'>
                         <Col>
                             <img 
-                                src='/forAttorneys.png' 
+                                src={attorneyLogo} 
                                 alt='Attorneys'
                                 style={{width: '75%', height: 'auto'}}
                             />

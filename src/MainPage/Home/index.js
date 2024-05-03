@@ -1,9 +1,11 @@
 import React from "react";
 import { Button, Grid, Row, Col } from "rsuite";
 import '../ForComponent.css'
+import homeLogo from './Home.png';
 
 
 const HomeComponent = () => {
+
     return (
         <div className="Home">
             <Grid fluid>
@@ -32,9 +34,9 @@ const HomeComponent = () => {
                         <Col>
                             <div className="lander">
                                 <img 
-                                    src='/Home.png' 
+                                    src={homeLogo}
                                     alt='Home'
-                                    style={{width: '150%', height: 'auto', marginTop: '5%', marginLeft: '10px', }}
+                                    style={{width: '165%', height: 'auto', marginTop: '5%' }}
                                 />
                             </div>
                         </Col>

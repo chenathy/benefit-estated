@@ -1,6 +1,7 @@
 import React from 'react';
 import {Grid, Row, Col} from 'rsuite';
 import '../ForComponent.css';
+import employeeLogo from './forEmployees.png'
 
 
 const EmployeesComponent = () => {
@@ -19,9 +20,9 @@ const EmployeesComponent = () => {
                     <div className='lander'>
                         <Col>
                             <img 
-                                src='/forEmployees.png' 
+                                src={employeeLogo}
                                 alt='Employees'
-                                style={{ width: '75%', height: 'auto' }}
+                                style={{ width: '90%', height: 'auto' }}
                             />
                         </Col>
                         <Col>
