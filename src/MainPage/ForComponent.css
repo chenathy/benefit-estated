@@ -8,16 +8,22 @@
     display: flex;
   }
   
-.Employees .lander h1 {
+.Employees h1 {
     font-family: "Open Sans", sans-serif;
     font-weight: 600; 
 }
   
-.Employees .lander p {
+.Employees p {
     color: #504646;
     margin-left: 20px;
+    margin-bottom: 5%;
 }
 
+.Employees .image {
+    width: 90%;
+    height: auto;
+    margin-top: 6%;
+}
 
 
 /* Employers  */
@@ -29,7 +35,7 @@
     display: flex;
   }
   
-.Employers .lander h1 {
+.Employers h1 {
     font-family: "Open Sans", sans-serif;
     font-weight: 600; 
 }
@@ -37,6 +43,13 @@
 .Employers .lander p {
     color: #504646;
     margin-left: 20px;
+    margin-bottom: 5%;
+}
+
+.Employers .image {
+    width: 90%;
+    height: auto;
+    margin-top: 6%;
 }
 
 /* Attorneys  */
@@ -48,7 +61,7 @@
     display: flex;
   }
   
-.Attorneys .lander h1 {
+.Attorneys  h1 {
     font-family: "Open Sans", sans-serif;
     font-weight: 600; 
 }
@@ -56,11 +69,12 @@
 .Attorneys .lander p {
     color: #504646;
     margin-left: 20px;
+    margin-bottom: 5%;
 }
 
-.Attorneys .lander img {
-    width: '35%';
-    height: 'auto'
+.Attorneys .image {
+    width: 75%;
+    height: auto;
 }
 
 
@@ -68,8 +82,7 @@
 .Home .lander {
     padding: 10px 0;
     text-align: left;
-    margin-left: 20%;
-    margin-right: 15%;
+    margin-left: 15%;
     display: flex;
 }
 
@@ -77,16 +90,17 @@
     font-family: cursive;
     font-weight: 1000; 
     margin-top: 20%;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
     font-size: 50px;
+    margin-left: 60px;
 }
 
 .Home .lander h2{
     font-family:'Times New Roman', Times, serif;
     margin-bottom: 5%;
-    margin-left: 3%;
+    margin-left: 30;
     font-weight: 500;
-    
+    color: #504646;;
 }
 
 .Home .button {
@@ -95,10 +109,17 @@
     border: none; 
     border-radius: 16px; 
     padding: 8px 16px; 
-    font-size: 18px; 
+    font-size: 20px; 
     width: 300px;
     height: 60px;
     margin-top: 10%;
+}
+
+.Home .image {
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 .Home .button:hover{
@@ -146,6 +167,7 @@
     font-size: 18px; 
     width: 300px;
     height: 60px;
+    margin-top: 3%;
 }
 
 .LearnAbout .button:hover{
@@ -153,17 +175,22 @@
     font-weight: bold;
 }
 
+.LearnAbout .image {
+    width: 45%; 
+    height: auto;
+}
+
 
 /* Contact Us  */
 .ContactUs {
     text-align: center;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 15%;
 }
 
 .ContactUs .row {
     display: flex;
-    margin: 5%;
+    margin: 3.5%;
 }
 
 .ContactUs .col {
@@ -206,4 +233,9 @@
 .ContactUs .button:hover {
     background-color: #0056b3;
     font-weight: bold;
+}
+
+.ContactUs .image {
+    width: 45%; 
+    height: auto;
 }

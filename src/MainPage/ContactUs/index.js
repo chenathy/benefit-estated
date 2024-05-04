@@ -5,14 +5,15 @@ import emailLogo from './email.png';
 import buildingLogo from './building.png';
 import phoneLogo from './phone.png';
 import regionLogo from './region.png';
+import cooperationLogo from './cooperation.png'
 
 
 const ContactUsComponent = () => {
     return (
         <div className="ContactUs">
             <Grid>
-                <Row>
-                    <h2>Contact Us</h2>
+                <Row style={{marginTop: '5%'}}>
+                    <h1>Contact Us</h1>
                 </Row>
                 <Row className="row">
                     <Col>
@@ -58,7 +59,12 @@ const ContactUsComponent = () => {
                             <Input placeholder="Region" className="input"/>
                         </Row>
                     </Col>
-                    <Col style={{marginTop: "20px"}}>
+                    <Col style={{marginTop: "1%"}}>
+                        <img
+                            src={cooperationLogo}
+                            alt="Cooperation"
+                            className="image"
+                        />
                         <p>Looking to Connect Bestated ?</p>
                         <p>Leave your contact Info, we will reach out to you very soon !</p>
                         <Button className="button"> Sign Up (Today)</Button>

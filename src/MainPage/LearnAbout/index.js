@@ -18,7 +18,7 @@ const LearnAboutComponent = () => {
                         <img
                             src={LearnLogo1}
                             alt="LearnAbout1"
-                            style={{width: '45%', height: 'auto'}}
+                            className="image"
                         />
                         <p>2 sided marketplace place offering estate planning services as part of employee benefits</p>
                     </Col>
@@ -26,7 +26,7 @@ const LearnAboutComponent = () => {
                         <img
                             src={LearnLogo2}
                             alt="LearnAbout2"
-                            style={{width: '45%', height: 'auto'}}
+                            className="image"
                         />
                         <p>Employer sponsored estate plans - wills, power of attorney, medical directives</p>   
                     </Col>
@@ -34,7 +34,7 @@ const LearnAboutComponent = () => {
                         <img
                             src={LearnLogo3}
                             alt="LearnAbout3"
-                            style={{width: '45%', height: 'auto'}}
+                            className="image"
                         />
                         <p>Attorneys in all 50 states paying a monthly subscription to estate, inc → $1,999/mo</p>
                     </Col>
@@ -42,7 +42,7 @@ const LearnAboutComponent = () => {
                         <img
                             src={LearnLogo4}
                             alt="LearnAbout4"
-                            style={{width: '45%', height: 'auto'}}
+                            className="image"
                         />
                         <p>Employers paying $1,000 + for each employee</p>
                     </Col>

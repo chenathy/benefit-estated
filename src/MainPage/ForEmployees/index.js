@@ -8,21 +8,19 @@ const EmployeesComponent = () => {
     return (
         <div className='Employees'>
             <Grid>
-                <div className='lander'>
                     <Row>
                         <Col>
                             <h1>For Employees</h1>
                         </Col>
                     </Row>
-                </div>
                 
-                <Row className='show-grid'>
+                <Row>
                     <div className='lander'>
                         <Col>
                             <img 
                                 src={employeeLogo}
                                 alt='Employees'
-                                style={{ width: '90%', height: 'auto' }}
+                                className='image'
                             />
                         </Col>
                         <Col>

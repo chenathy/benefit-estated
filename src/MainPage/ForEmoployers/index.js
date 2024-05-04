@@ -7,17 +7,15 @@ import employersLogo from './forEmployers.png'
 const EmployersComponent = () => {
     return (
         <div className="Employers">
-            <Grid>
-                <div className='lander'>    
-                    <h1>For Employers</h1>
-                </div>
+            <Grid> 
+                <h1>For Employers</h1>
                 <Row className="show-grid">
                     <div className="lander">
                         <Col>
                             <img 
                                 src={employersLogo} 
                                 alt='employers'
-                                style={{width: '90%', height: 'auto'}}
+                                className='image'
                             />
                         </Col>
                         <Col>

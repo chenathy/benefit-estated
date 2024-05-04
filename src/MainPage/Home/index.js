@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Grid, Row, Col } from "rsuite";
-import '../ForComponent.css'
-import homeLogo from './Home.png';
+import "../ForComponent.css"
+import homeLogo from "./Home.png";
 
 
 const HomeComponent = () => {
@@ -9,7 +9,7 @@ const HomeComponent = () => {
     return (
         <div className="Home">
             <Grid fluid>
-                <Row className="show-grid">
+                <Row>
                     <div className="lander">
                         
                         <Col>
@@ -30,15 +30,12 @@ const HomeComponent = () => {
 
                         </Col>
                         
-                    
                         <Col>
-                            <div className="lander">
-                                <img 
-                                    src={homeLogo}
-                                    alt='Home'
-                                    style={{width: '165%', height: 'auto', marginTop: '5%' }}
-                                />
-                            </div>
+                            <img 
+                                src={homeLogo}
+                                alt="Home"
+                                className="image"
+                            />
                         </Col>
                     </div>
                 </Row>
