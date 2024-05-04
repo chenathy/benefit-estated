@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Grid, Row, Col } from "rsuite";
+import { Grid, Row, Col } from "rsuite";
 import '../ForComponent.css';
 import employersLogo from './forEmployers.png'
 
