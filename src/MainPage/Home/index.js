@@ -1,13 +1,15 @@
 import React from "react";
 import { Button, Grid, Row, Col } from "rsuite";
-import '../ForComponent.css'
+import "../ForComponent.css"
+import homeLogo from "./Home.png";
 
 
 const HomeComponent = () => {
+
     return (
         <div className="Home">
             <Grid fluid>
-                <Row className="show-grid">
+                <Row>
                     <div className="lander">
                         
                         <Col>
@@ -28,15 +30,12 @@ const HomeComponent = () => {
 
                         </Col>
                         
-                    
                         <Col>
-                            <div className="lander">
-                                <img 
-                                    src='/Home.png' 
-                                    alt='Home'
-                                    style={{width: '150%', height: 'auto', marginTop: '5%', marginLeft: '10px', }}
-                                />
-                            </div>
+                            <img 
+                                src={homeLogo}
+                                alt="Home"
+                                className="image"
+                            />
                         </Col>
                     </div>
                 </Row>

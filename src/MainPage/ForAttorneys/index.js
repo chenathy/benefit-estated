@@ -1,21 +1,20 @@
 import React from 'react';
-import {Button, Grid, Row, Col} from 'rsuite';
-import '../ForComponent.css'
+import { Grid, Row, Col } from 'rsuite';
+import '../ForComponent.css';
+import attorneyLogo from './forAttorneys.png';
 
 const AttorneyComponent = () => {
     return (
         <div className='Attorneys'>
             <Grid>
-                <div className='lander'>
-                    <h1>For Attorneys</h1>
-                </div>
+                <h1>For Attorneys</h1>
                 <Row className='show-grid'>
                     <div className='lander'>
                         <Col>
                             <img 
-                                src='/forAttorneys.png' 
+                                src={attorneyLogo} 
                                 alt='Attorneys'
-                                style={{width: '75%', height: 'auto'}}
+                                className='image'
                             />
                         </Col>
                         <Col>
