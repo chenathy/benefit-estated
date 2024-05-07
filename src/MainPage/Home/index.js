@@ -13,7 +13,7 @@ const HomeComponent = () => {
                     <div className="lander">
                         
                         <Col>
-                            <Row><h1>BeEstated LLC.</h1></Row>
+                            <Row><h1>Bestated</h1></Row>
 
                             <Row>
                                 <h2>Employers Sponsored Wills</h2>
@@ -24,7 +24,7 @@ const HomeComponent = () => {
 
                             <Button 
                                 className="button"
-                                size="lg">Sign Up (today)
+                                size="lg">Sign Up Today
                             </Button>
 
 

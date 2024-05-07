@@ -19,7 +19,7 @@ body {
 
 .navbar {
   height: 60px;
-  background-color: #fef7e5;
+  background-color: #71adf2;
   position: relative;
 }
 
@@ -42,7 +42,7 @@ body {
 
 .nav-elements ul a {
     list-style-type: none;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #2f234f;
     text-decoration: none;
