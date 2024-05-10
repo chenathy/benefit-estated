@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/benefit-estated/static/css/main.4bafd42a.css",
-    "main.js": "/benefit-estated/static/js/main.ac095409.js",
+    "main.css": "/benefit-estated/static/css/main.ebf5c844.css",
+    "main.js": "/benefit-estated/static/js/main.39b037f1.js",
     "static/js/453.9d2f681c.chunk.js": "/benefit-estated/static/js/453.9d2f681c.chunk.js",
     "static/media/forAttorneys.png": "/benefit-estated/static/media/forAttorneys.9e71c1ffd326f604c78d.png",
     "static/media/Home.png": "/benefit-estated/static/media/Home.da7603bf66c2bf4e9a79.png",
@@ -18,12 +18,12 @@
     "static/media/contact.png": "/benefit-estated/static/media/contact.3586129c4b8a0f1ba697.png",
     "static/media/logoTest(willReplace).svg": "/benefit-estated/static/media/logoTest(willReplace).1869843c1494955036e41ad282c88e50.svg",
     "index.html": "/benefit-estated/index.html",
-    "main.4bafd42a.css.map": "/benefit-estated/static/css/main.4bafd42a.css.map",
-    "main.ac095409.js.map": "/benefit-estated/static/js/main.ac095409.js.map",
+    "main.ebf5c844.css.map": "/benefit-estated/static/css/main.ebf5c844.css.map",
+    "main.39b037f1.js.map": "/benefit-estated/static/js/main.39b037f1.js.map",
     "453.9d2f681c.chunk.js.map": "/benefit-estated/static/js/453.9d2f681c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bafd42a.css",
-    "static/js/main.ac095409.js"
+    "static/css/main.ebf5c844.css",
+    "static/js/main.39b037f1.js"
   ]
 }
