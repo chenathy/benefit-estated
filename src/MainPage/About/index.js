@@ -1,14 +1,14 @@
 import React from "react";
 import { Grid, Col, Row, Button } from "rsuite";
-import LearnLogo1 from './benefit(1).png';
-import LearnLogo2 from './benefit(2).png';
-import LearnLogo3 from './benefit(3).png';
-import LearnLogo4 from './benefit(4).png';
+import AboutLogo1 from './benefit(1).png';
+import AboutLogo2 from './benefit(2).png';
+import AboutLogo3 from './benefit(3).png';
+import AboutLogo4 from './benefit(4).png';
 
 
-const LearnAboutComponent = () => {
+const AboutComponent = () => {
     return (
-        <div className="LearnAbout">
+        <div className="About">
             <Grid fluid>
                 <Row style={{marginTop: '5%'}}>
                     <h1>Benefit Estated</h1>
@@ -16,35 +16,35 @@ const LearnAboutComponent = () => {
                 <Row className="row">
                     <Col className="col">
                         <img
-                            src={LearnLogo1}
-                            alt="LearnAbout1"
+                            src={AboutLogo1}
+                            alt="About1"
                             className="image"
                         />
                         <p>2 sided marketplace place offering estate planning services as part of employee benefits</p>
                     </Col>
                     <Col className="col">
                         <img
-                            src={LearnLogo2}
-                            alt="LearnAbout2"
+                            src={AboutLogo2}
+                            alt="About2"
                             className="image"
                         />
                         <p>Employer sponsored estate plans - wills, power of attorney, medical directives</p>   
                     </Col>
                     <Col className="col">
                         <img
-                            src={LearnLogo3}
-                            alt="LearnAbout3"
+                            src={AboutLogo3}
+                            alt="About3"
                             className="image"
                         />
-                        <p>Attorneys in all 50 states paying a monthly subscription to estate, inc → $1,999/mo</p>
+                        <p>Attorneys in all 50 states pay a monthly subscription to estate, inc</p>
                     </Col>
                     <Col className="col">
                         <img
-                            src={LearnLogo4}
-                            alt="LearnAbout4"
+                            src={AboutLogo4}
+                            alt="About4"
                             className="image"
                         />
-                        <p>Employers paying $1,000 + for each employee</p>
+                        <p>Employers pay $ for each employee</p>
                     </Col>
                 </Row>
                 <Row>
@@ -56,11 +56,11 @@ const LearnAboutComponent = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Button className="button">Sign Up (Today)</Button>
+                    <Button className="button">Sign Up Today</Button>
                 </Row>
             </Grid>
         </div>
     )
 }
 
-export default LearnAboutComponent;
+export default AboutComponent;

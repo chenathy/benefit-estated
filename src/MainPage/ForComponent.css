@@ -118,7 +118,7 @@
 .Home .image {
     width: 80%;
     height: auto;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-left: 10%;
 }
 
@@ -127,8 +127,8 @@
     font-weight: bold;
 }
 
-/* Learn About  */
-.LearnAbout {
+/* About  */
+.About {
     display: flex;
     /* padding: 10px 0; */
     text-align: center;
@@ -136,14 +136,14 @@
     margin-right: 10%;
 }
 
-.LearnAbout .row {
+.About .row {
     margin-bottom: 15;
     display: flex;
     align-items: top;
     margin: 5%;
 }
 
-.LearnAbout .col {
+.About .col {
     width: 20%;
     height: auto;
     align-items: end;
@@ -158,7 +158,7 @@
     color: grey;
 }
 
-.LearnAbout .button {
+.About .button {
     background-color: #007bff; 
     color: #fff; 
     border: none; 
@@ -170,12 +170,12 @@
     margin-top: 3%;
 }
 
-.LearnAbout .button:hover{
+.About .button:hover{
     background-color: #0056b3;
     font-weight: bold;
 }
 
-.LearnAbout .image {
+.About .image {
     width: 45%; 
     height: auto;
 }

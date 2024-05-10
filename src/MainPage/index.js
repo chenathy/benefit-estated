@@ -3,7 +3,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 
 import Navbar from './NavBar';
 import HomeComponent from './Home';
-import LearnAboutComponent from './LearnAbout';
+import AboutComponent from './About';
 import EmployeesComponent from './ForEmployees';
 import EmployersComponent from './ForEmoployers';
 import AttorneyComponent from './ForAttorneys';
@@ -18,7 +18,7 @@ const MainPageComponent = () => {
             
             <Routes>
                 <Route path='/' element={<HomeComponent/>} />
-                <Route path='/learnAbout' element={<LearnAboutComponent/>} />
+                <Route path='/about' element={<AboutComponent/>} />
                 <Route path='/contactUs' element={<ContactUsComponent/>} />
                 <Route path='/employees' element={<EmployeesComponent/>} />
                 <Route path='/employers' element={<EmployersComponent/>} />

@@ -8,7 +8,7 @@ const SidePage = ({ isOpen, ...props }) => {
     <div className={`side-page ${isOpen ? 'open' : ''}`} onClick={props.onClick}>
       <ul>
           <li>
-            <NavLink to='/employees'>For Emoployees</NavLink>
+            <NavLink to='/employees'>For Employees</NavLink>
           </li>
           <li>
             <NavLink to='/employers'>For Employers</NavLink>
