@@ -11,7 +11,7 @@ const AboutComponent = () => {
         <div className="About">
             <Grid fluid>
                 <Row style={{marginTop: '5%'}}>
-                    <h1>Benefit Estated</h1>
+                    <h1>Bestated</h1>
                 </Row>
                 <Row className="row">
                     <Col className="col">
