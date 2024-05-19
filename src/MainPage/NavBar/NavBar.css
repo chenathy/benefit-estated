@@ -29,13 +29,14 @@ body {
 }
 
 
-.logo {
+.logo img {
+  width: auto;
+  height: 75px;
 }
 
 .nav-elements {
     margin-left: auto;
 }
-
 
 .nav-elements ul {
     display: flex;
