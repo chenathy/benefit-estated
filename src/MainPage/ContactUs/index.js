@@ -66,7 +66,7 @@ const ContactUsComponent = () => {
                             className="image"
                         />
                         <p>Looking to Connect Bestated ?</p>
-                        <p>Leave your contact Info, we will reach out to you very soon !</p>
+                        <p>Please send us your contact information, and someone from our team will be in touch with you soon!</p>
                         <Button className="button">Submit</Button>
                     </Col>
                 </Row>

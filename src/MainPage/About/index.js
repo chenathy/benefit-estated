@@ -1,5 +1,6 @@
 import React from "react";
 import { Grid, Col, Row, Button } from "rsuite";
+import { useNavigate } from "react-router-dom";
 import AboutLogo1 from './benefit(1).png';
 import AboutLogo2 from './benefit(2).png';
 import AboutLogo3 from './benefit(3).png';
@@ -7,6 +8,9 @@ import AboutLogo4 from './benefit(4).png';
 
 
 const AboutComponent = () => {
+
+    const navigate = useNavigate()
+
     return (
         <div className="About">
             <Grid fluid>
@@ -56,7 +60,10 @@ const AboutComponent = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <Button className="button">Sign Up Today</Button>
+                    <Button 
+                        className="button"
+                        onClick={() => navigate("/contactUs")}
+                    >Sign Up Today</Button>
                 </Row>
             </Grid>
         </div>

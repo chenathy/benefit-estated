@@ -22,7 +22,8 @@ const MainPageComponent = () => {
                 <Route path='/contactUs' element={<ContactUsComponent/>} />
                 <Route path='/employees' element={<EmployeesComponent/>} />
                 <Route path='/employers' element={<EmployersComponent/>} />
-                <Route path='/attorneys' element={<AttorneyComponent/>} />
+                <Route path='/attorneys' element={<AttorneyComponent/>} />                
+                <Route path='/benefit-estated' element={<HomeComponent/>} /> 
             </Routes>
             
         </Router>
