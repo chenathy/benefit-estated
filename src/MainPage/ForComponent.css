@@ -79,6 +79,14 @@
 
 
 /* Home */
+.Home {
+    display: flex;
+    /* padding: 10px 0; */
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .Home .lander {
     padding: 10px 0;
     text-align: left;
@@ -86,14 +94,6 @@
     display: flex;
 }
 
-.Home .lander h1 {
-    font-family: cursive;
-    font-weight: 1000; 
-    margin-top: 20%;
-    margin-bottom: 15%;
-    font-size: 50px;
-    margin-left: 60px;
-}
 
 .Home .lander h2{
     font-family:'Times New Roman', Times, serif;
@@ -183,9 +183,10 @@
 
 /* Contact Us  */
 .ContactUs {
+    display: flex;
     text-align: center;
     margin-left: 10%;
-    margin-right: 15%;
+    margin-right: 10%;
 }
 
 .ContactUs .row {

@@ -10,11 +10,10 @@ const HomeComponent = () => {
         <div className="Home">
             <Grid fluid>
                 <Row>
-                    <div className="lander">
-                        
-                        <Col>
-                            <Row><h1>Bestated</h1></Row>
 
+                    <Row style={{marginTop: '5%'}}><h1>Bestated</h1></Row>
+                    <div className="lander">
+                        <Col>
                             <Row>
                                 <h2>Employers Sponsored Wills</h2>
                                 <h2>Estated Planning</h2>
