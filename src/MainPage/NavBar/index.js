@@ -1,9 +1,10 @@
 import React, {useState} from 'react';
-import { ReactComponent as CompanyLogo } from '../../logoTest(willReplace).svg';
+import compnanyLogo from '../../bestated_logo.png';
 import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 import MenuIcon from '../Menu/MenuIcon';
 import SidePage from '../Menu/SidePage';
+import { Nav } from 'rsuite';
 
 
 const Navbar = () => {
@@ -16,7 +17,9 @@ const Navbar = () => {
       <nav className='navbar'>
         <div className='container'>
           <div className='logo'>
-            <CompanyLogo />
+            <NavLink to='/'>
+              <img src={compnanyLogo} alt='Logo'/>
+            </NavLink>
           </div>
           <div className='nav-elements'>
             <ul>
