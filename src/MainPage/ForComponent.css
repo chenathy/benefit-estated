@@ -148,8 +148,8 @@
     height: auto;
     align-items: end;
     border-color: lightgrey;
-    border-width: 2px;
-    border-radius: 20px;
+    border-width: 1.5px;
+    border-radius: 16px;
     border-style: solid;
     padding: 10px;
     margin-right: auto;
@@ -176,7 +176,7 @@
 }
 
 .About .image {
-    width: 45%; 
+    width: 35%; 
     height: auto;
 }
 

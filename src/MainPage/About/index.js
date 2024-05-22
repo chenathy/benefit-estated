@@ -24,7 +24,7 @@ const AboutComponent = () => {
                             alt="About1"
                             className="image"
                         />
-                        <p>2 sided marketplace place offering estate planning services as part of employee benefits</p>
+                        <p>Bestated is a 2 side marketplace as part of employee benefits and employee onboarding.</p>
                     </Col>
                     <Col className="col">
                         <img
@@ -32,7 +32,7 @@ const AboutComponent = () => {
                             alt="About2"
                             className="image"
                         />
-                        <p>Employer sponsored estate plans - wills, power of attorney, medical directives</p>   
+                        <p>Employer sponsored estate plans - wills, power of attorney, and medical directives.</p>  
                     </Col>
                     <Col className="col">
                         <img
@@ -40,7 +40,9 @@ const AboutComponent = () => {
                             alt="About3"
                             className="image"
                         />
-                        <p>Attorneys in all 50 states pay a monthly subscription to estate, inc</p>
+                        <p>Attorney partners pay a monthly subscription to be a part of the Bestated platform to help establish wills, 
+                            power of attorney and medical directives for employees
+                        </p>
                     </Col>
                     <Col className="col">
                         <img
@@ -48,7 +50,7 @@ const AboutComponent = () => {
                             alt="About4"
                             className="image"
                         />
-                        <p>Employers pay $ for each employee</p>
+                        <p>Employers will help employees and their families' get a written plan established in case worse comes to worst</p>
                     </Col>
                 </Row>
                 <Row>
