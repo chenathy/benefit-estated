@@ -2,7 +2,11 @@ import React from "react";
 import { Button, Grid, Row, Col } from "rsuite";
 import { useNavigate } from 'react-router-dom';
 import "../ForComponent.css"
-import homeLogo from "./Home.png";
+import homeLogo from "./Home.jpg";
+import attorneyLogo from "./PowerOfAttorneys.jpg"
+import estatePlanLogo from "./EstatePlanning.jpg"
+import employerSponsoredLogo from "./EmployerSponsored.jpg"
+import retainBenefitsLogo from "./retainBenefits.jpg"
 
 
 const HomeComponent = () => {
@@ -14,7 +18,7 @@ const HomeComponent = () => {
             <Grid fluid>
                 <Row>
 
-                    <Row style={{marginTop: "5%"}}><h1>Bestated</h1></Row>
+                    <Row style={{marginTop: "5%", textAlign: "center"}}><h1>Bestated</h1></Row>
 
                     <div className="lander">
                         <Col xs={12} className="text-column">
@@ -42,6 +46,7 @@ const HomeComponent = () => {
                         </Col>
                     </div>
 
+
                     <span className="section-name">Medical Directives</span>
                     <div className="display">
                         <Col xs={12} className="text-column">
@@ -68,17 +73,18 @@ const HomeComponent = () => {
                         <Col xs={12} className="img-column">
                             <div className="img">
                                 <img 
-                                    src={homeLogo}
+                                    src={retainBenefitsLogo}
                                     alt="Home"
                                     style={{ width: '100%', height: 'auto' }}
                                 />
                                 <div class="text-overlay">
                                     <h2>Bestated</h2>
-                                    <p>You can add any text you want here</p>
+                                    <p>Greate Benefit Packages</p>
                                 </div>
                             </div>
                         </Col> 
                     </div>
+
 
                     <span className="section-name">Employers Sponsored Wills</span>
                     <div className="display">
@@ -103,17 +109,18 @@ const HomeComponent = () => {
                         <Col xs={12} className="img-column">
                             <div className="img"> 
                                 <img 
-                                    src={homeLogo}
+                                    src={employerSponsoredLogo}
                                     alt="Home"
                                     style={{ width: '100%', height: 'auto' }}
                                 />
                                 <div class="text-overlay">
                                     <h2>Bestated</h2>
-                                    <p>You can add any text you want here</p>
+                                    <p>Employers Sponsored Wills</p>
                                 </div>
                             </div>
                         </Col>
                     </div>
+
 
                     <span className="section-name">Estate Planning</span>
                     <div className="display">
@@ -132,13 +139,42 @@ const HomeComponent = () => {
                         <Col xs={12} className="img-column">
                             <div className="img"> 
                                 <img 
-                                    src={homeLogo}
+                                    src={estatePlanLogo}
                                     alt="Home"
                                     style={{ width: '100%', height: 'auto' }}
                                 />
                                 <div class="text-overlay">
                                     <h2>Bestated</h2>
-                                    <p>You can add any text you want here</p>
+                                </div>
+                            </div>
+                        </Col>
+
+                    </div>
+
+
+                    <span className="section-name">Power of Attorneys</span>
+                    <div className="display">
+                        <Col xs={12} className="text-column">
+                            <div>
+                                <h2>Bestated Connects Attorneys with employees who have opted-in to this paradigm-shifting benefit.</h2>
+                            
+                            </div>
+                            <Button 
+                                onClick={() => navigate("/contactUs")}
+                                className="button"
+                                >Sign Up Today
+                            </Button>
+                        </Col>
+                        <Col xs={12} className="img-column">
+                            <div className="img"> 
+                                <img 
+                                    src={attorneyLogo}
+                                    alt="Home"
+                                    style={{ width: '100%', height: 'auto' }}
+                                />
+                                <div class="text-overlay">
+                                    <h2>Bestated</h2>
+                                    <p>Attorneys Connections</p>
                                 </div>
                             </div>
                         </Col>

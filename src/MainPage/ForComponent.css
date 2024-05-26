@@ -91,7 +91,7 @@
     display: flex;
     padding: 50px 5px;
     justify-content: center;
-    text-align: left;
+    text-align: center;
     border-bottom: 2px solid rgb(185, 181, 181);
 }
 
@@ -159,11 +159,11 @@
 
 .display .text-overlay {
     position: absolute;
-    top: 50%; /* Adjust as needed to position the text vertically */
-    left: 50%; /* Adjust as needed to position the text horizontally */
-    transform: translate(-50%, -50%); /* Center the text */
-    color: white; /* Text color */
-    text-align: center; /* Center align the text */
+    top: 50%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    text-align: center; 
 }
 
 /* About  */
