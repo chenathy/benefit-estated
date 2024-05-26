@@ -1,17 +1,13 @@
 {
   "files": {
-    "main.css": "/benefit-estated/static/css/main.c9f7bf0f.css",
-    "main.js": "/benefit-estated/static/js/main.6ac91419.js",
+    "main.css": "/benefit-estated/static/css/main.979b98df.css",
+    "main.js": "/benefit-estated/static/js/main.dd96569e.js",
     "static/js/453.9d2f681c.chunk.js": "/benefit-estated/static/js/453.9d2f681c.chunk.js",
     "static/media/forAttorneys.png": "/benefit-estated/static/media/forAttorneys.9e71c1ffd326f604c78d.png",
+    "static/media/Home.png": "/benefit-estated/static/media/Home.da7603bf66c2bf4e9a79.png",
     "static/media/forEmployers.png": "/benefit-estated/static/media/forEmployers.3e4b4102173a61b076cc.png",
     "static/media/forEmployees.png": "/benefit-estated/static/media/forEmployees.9b53fa9e8c8fa1eaf669.png",
-    "static/media/PowerOfAttorneys.jpg": "/benefit-estated/static/media/PowerOfAttorneys.4e0ece4a4b3621c997f8.jpg",
-    "static/media/Home.jpg": "/benefit-estated/static/media/Home.99d30d7b2fb029e8544e.jpg",
-    "static/media/EmployerSponsored.jpg": "/benefit-estated/static/media/EmployerSponsored.0c4615a229e484e26a7d.jpg",
     "static/media/bestated_logo.png": "/benefit-estated/static/media/bestated_logo.383b5271bcb341c8ce20.png",
-    "static/media/EstatePlanning.jpg": "/benefit-estated/static/media/EstatePlanning.143945fdcae31ef72f0c.jpg",
-    "static/media/retainBenefits.jpg": "/benefit-estated/static/media/retainBenefits.48c7498082b9dffab32f.jpg",
     "static/media/benefit(1).png": "/benefit-estated/static/media/benefit(1).5892495d42a6cf03de7a.png",
     "static/media/cooperation.png": "/benefit-estated/static/media/cooperation.8608081070a746ab7cdd.png",
     "static/media/benefit(3).png": "/benefit-estated/static/media/benefit(3).09eb8564050b47e7acaf.png",
@@ -22,12 +18,12 @@
     "static/media/email.png": "/benefit-estated/static/media/email.51b08bcbb5af7a861c31.png",
     "static/media/contact.png": "/benefit-estated/static/media/contact.3586129c4b8a0f1ba697.png",
     "index.html": "/benefit-estated/index.html",
-    "main.c9f7bf0f.css.map": "/benefit-estated/static/css/main.c9f7bf0f.css.map",
-    "main.6ac91419.js.map": "/benefit-estated/static/js/main.6ac91419.js.map",
+    "main.979b98df.css.map": "/benefit-estated/static/css/main.979b98df.css.map",
+    "main.dd96569e.js.map": "/benefit-estated/static/js/main.dd96569e.js.map",
     "453.9d2f681c.chunk.js.map": "/benefit-estated/static/js/453.9d2f681c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c9f7bf0f.css",
-    "static/js/main.6ac91419.js"
+    "static/css/main.979b98df.css",
+    "static/js/main.dd96569e.js"
   ]
 }
