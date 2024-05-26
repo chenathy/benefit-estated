@@ -15,8 +15,9 @@ const HomeComponent = () => {
                 <Row>
 
                     <Row style={{marginTop: "5%"}}><h1>Bestated</h1></Row>
+
                     <div className="lander">
-                        <Col>
+                        <Col xs={12} className="text-column">
                             <Row>
                                 <h2>Employers Sponsored Wills</h2>
                                 <h2>Estated Planning</h2>
@@ -32,15 +33,16 @@ const HomeComponent = () => {
                             </Button>
                         </Col>
                         
-                        <Col>
+                        <Col xs={12} className="img-column">
                             <img 
                                 src={homeLogo}
                                 alt="Home"
-                                className="image"
+                                style={{ width: '100%', height: 'auto' }}
                             />
                         </Col>
                     </div>
 
+                    <span className="section-name">Medical Directives</span>
                     <div className="display">
                         <Col xs={12} className="text-column">
                             <div>
@@ -57,10 +59,8 @@ const HomeComponent = () => {
                                     <li>etc ...</li>
                                 </ul>
                                 <Button 
-                                        size="lg"
                                         onClick={() => navigate("/contactUs")}
                                         className="button"
-                                        style={{marginLeft: '20%'}}
                                         >Sign Up Today
                                 </Button>
                             </div>
@@ -80,6 +80,7 @@ const HomeComponent = () => {
                         </Col> 
                     </div>
 
+                    <span className="section-name">Employers Sponsored Wills</span>
                     <div className="display">
                         <Col xs={12} className="text-column">
                             <div>
@@ -93,10 +94,8 @@ const HomeComponent = () => {
                                     <li>etc...</li>
                                 </ul>
                                 <Button 
-                                        size="lg"
                                         onClick={() => navigate("/contactUs")}
                                         className="button"
-                                        style={{marginLeft: '20%'}}
                                         >Sign Up Today
                                 </Button>
                             </div>
@@ -116,6 +115,7 @@ const HomeComponent = () => {
                         </Col>
                     </div>
 
+                    <span className="section-name">Estate Planning</span>
                     <div className="display">
                         <Col xs={12} className="text-column">
                             <div>
@@ -124,10 +124,8 @@ const HomeComponent = () => {
                                 <p><b>Hard to focus on the day to day task of work ?</b></p> 
                             </div>
                             <Button 
-                                size="lg"
                                 onClick={() => navigate("/contactUs")}
                                 className="button"
-                                style={{marginLeft: '20%'}}
                                 >Sign Up Today
                             </Button>
                         </Col>
