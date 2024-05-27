@@ -6,6 +6,7 @@ import homeLogo from "./Home.jpg";
 import attorneyLogo from "./PowerOfAttorneys.jpg"
 import estatePlanLogo from "./EstatePlanning.jpg"
 import employerSponsoredLogo from "./EmployerSponsored.jpg"
+import employerSponsoredLogo2 from "./EmployerSponsored(2).jpg"
 import retainBenefitsLogo from "./retainBenefits.jpg"
 
 
@@ -20,14 +21,15 @@ const HomeComponent = () => {
 
                     <Row style={{marginTop: "5%", textAlign: "center"}}><h1>Bestated</h1></Row>
 
-                    <div className="lander">
+                    <div className="display">
                         <Col xs={12} className="text-column">
-                            <Row>
+                            <div className="lander"> 
+
                                 <h2>Employers Sponsored Wills</h2>
                                 <h2>Estated Planning</h2>
                                 <h2>Medical Directives</h2>
                                 <h2>Power of Attorneys</h2>
-                            </Row>
+                            </div>
 
                             <Button 
                                 className="button"
@@ -38,11 +40,16 @@ const HomeComponent = () => {
                         </Col>
                         
                         <Col xs={12} className="img-column">
-                            <img 
-                                src={homeLogo}
-                                alt="Home"
-                                style={{ width: '100%', height: 'auto' }}
-                            />
+                            <div className="img"> 
+                                <img 
+                                    src={homeLogo}
+                                    alt="Home"
+                                    style={{ width: '100%', height: 'auto' }}
+                                />
+                                <div class="text-overlay">
+                                    <h2>Bestated</h2>
+                                </div>
+                            </div>
                         </Col>
                     </div>
 
@@ -52,7 +59,11 @@ const HomeComponent = () => {
                         <Col xs={12} className="text-column">
                             <div>
                                 <h2>Bestated is the paradigm shifting platform for leading, innovative companies. </h2>
+                                <br/>
                                 <h2>We are the first Employer-sponsored Will, POA, and Medical Directive Benefit platform.</h2>
+                                <br/>
+                                <br/>
+                                <br/>
                                 <br/>
                                 <p>Our platform connects your employees with our attorney partners so that your employees can be fully focused on their jobs/careers.</p>
                                 <b>By adding this to your benefit, you will be able to attract and retain leading talent.</b>
@@ -74,6 +85,17 @@ const HomeComponent = () => {
                             <div className="img"> 
                                 <img 
                                     src={employerSponsoredLogo}
+                                    alt="Home"
+                                    style={{ width: '100%', height: 'auto' }}
+                                />
+                                <div class="text-overlay">
+                                    <h2 style={{color: '#FF8000'}}>Bestated</h2>
+                                    <p>Employers Sponsored Wills</p>
+                                </div>
+                            </div>
+                            <div className="img"> 
+                                <img 
+                                    src={employerSponsoredLogo2}
                                     alt="Home"
                                     style={{ width: '100%', height: 'auto' }}
                                 />
@@ -127,8 +149,8 @@ const HomeComponent = () => {
                     <div className="display">
                         <Col xs={12} className="text-column">
                             <div>
-                                <h2>Bestated Connects Attorneys with employees who have opted-in to this paradigm-shifting benefit.</h2>
-                            
+                                <h2>The Bestated platform will empower your employees to have a plan</h2>
+                                <b>in place should they need a family member to make life decisions should that become necessary</b>   
                             </div>
                             <Button 
                                 onClick={() => navigate("/contactUs")}
