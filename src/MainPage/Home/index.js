@@ -119,7 +119,7 @@ const HomeComponent = () => {
                                         <p>Plan and alleviate your employees' families potential stress by having them build a will, estate plan, power of attorney, and medical directive.</p>
                                     </li>
                                     <li>
-                                        <p>The majority of your employees aren't prepared for if the unfortunate happens.</p>
+                                        <p>The majority of your employees aren't prepared if the unfortunate happens.</p>
                                     </li>
                                 </ul>
                                 <b>Opt your employees into building a plan today!</b>
@@ -150,7 +150,8 @@ const HomeComponent = () => {
                         <Col xs={12} className="text-column">
                             <div>
                                 <h2>The Bestated platform will empower your employees to have a plan</h2>
-                                <b>in place should they need a family member to make life decisions should that become necessary</b>   
+                                <p>Should life take an unfortunate turn, your employees need a plan in place. </p>
+                                <p>With the Bestated platform, you will be able to empower your employees so that their families need to step in and make life decisions.</p>   
                             </div>
                             <Button 
                                 onClick={() => navigate("/contactUs")}
