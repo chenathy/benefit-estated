@@ -258,6 +258,18 @@
     border-width: 1px;
 }
 
+.ContactUs p {
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.ContactUs b {
+    padding: 100px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 22px;
+}
+
 .ContactUs .button {
     background-color: #007bff; 
     color: #fff; 

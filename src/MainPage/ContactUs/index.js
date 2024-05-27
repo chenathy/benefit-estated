@@ -29,28 +29,12 @@ const ContactUsComponent = () => {
                             <Input placeholder="Last Name" className="input" style={{width: '200px'}}/>
                         </Row>
                         <Row className="row">
-                            <img 
-                                src={beneficiariesLogo}
-                                alt="Beneficiaries"
-                                className="icon"
-                            />
-                            <Input placeholder="Beneficiaries" className="input"/>
-                        </Row>
-                        <Row className="row">
                             <img
                                 src={buildingLogo}
                                 alt="Company"
                                 className="icon"
                             />
                             <Input placeholder="Company Name" className="input"/>
-                        </Row>
-                        <Row className="row">
-                            <img 
-                                src={assetsLogo}
-                                alt="Assets"
-                                className="icon"
-                            />
-                            <Input placeholder="Assets" className="input"/>
                         </Row>
                         <Row className="row">
                             <img
@@ -76,14 +60,30 @@ const ContactUsComponent = () => {
                             />
                             <Input placeholder="State" className="input"/>
                         </Row>
+                        <Row className="row">
+                            <img 
+                                src={beneficiariesLogo}
+                                alt="Beneficiaries"
+                                className="icon"
+                            />
+                            <Input placeholder="Beneficiaries" className="input"/>
+                        </Row>
+                        <Row className="row">
+                            <img 
+                                src={assetsLogo}
+                                alt="Assets"
+                                className="icon"
+                            />
+                            <Input placeholder="Assets" className="input"/>
+                        </Row>
                     </Col>
-                    <Col style={{marginTop: "1%"}}>
+                    <Col style={{marginTop: "2%"}}>
                         <img
                             src={cooperationLogo}
                             alt="Cooperation"
                             className="image"
                         />
-                        <p>Looking to Connect Bestated ?</p>
+                        <p><b>Looking to connect with the Bestated team?</b></p>
                         <p>Please send us your contact information, and someone from our team will be in touch with you soon!</p>
                         <Button className="button">Submit</Button>
                     </Col>
