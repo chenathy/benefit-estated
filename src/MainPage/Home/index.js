@@ -134,7 +134,7 @@ const HomeComponent = () => {
                                 />
                                 <div class="text-overlay">
                                     <h2>Bestated</h2>
-                                    <p>Attorneys Connections</p>
+                                    <p>Connections with Attorneys</p>
                                 </div>
                             </div>
                         </Col>
