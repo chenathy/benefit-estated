@@ -88,7 +88,7 @@
 }
 
 .Home .lander {
-    padding: 2px 5px;
+    padding: 0px 5px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -97,7 +97,6 @@
 .Home .lander h2{
     font-family:'Times New Roman', Times, serif;
     margin-bottom: 5%;
-    margin-left: 30;
     /* font-weight: 500; */
     font-size: 24px;
     color: #504646;;
