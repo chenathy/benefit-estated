@@ -98,7 +98,8 @@
     font-family:'Times New Roman', Times, serif;
     margin-bottom: 5%;
     margin-left: 30;
-    font-weight: 500;
+    /* font-weight: 500; */
+    font-size: 24px;
     color: #504646;;
 }
 
