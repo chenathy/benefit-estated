@@ -132,7 +132,7 @@
 .Home .display {
     display: flex;
     justify-content: center;
-    padding: 50px 5px;
+    padding: 50px 10px;
     text-align: left;
     border-bottom: 2px solid rgb(185, 181, 181);
 }
@@ -140,7 +140,7 @@
 .Home .text-column {
     flex: 1;
     max-width: 50%;
-    padding: 0 5px;
+    padding: 0 10px;
 }
 
 .Home .img-column {

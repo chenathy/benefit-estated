@@ -90,9 +90,17 @@ const HomeComponent = () => {
                     <div className="display">
                         <Col xs={12} className="text-column">
                             <div>
-                                <h2>Bestated will have your backs and do great work.</h2>
-                                <p><b>Stressed out about Life Changes ?</b></p>
-                                <p><b>Hard to focus on the day to day task of work ?</b></p> 
+                                <h2>Bestated will allow you to take care of your employees and their families.</h2> 
+                                <b>They don't need to go through the headache and hassle of probate if the inevitable happens. </b>
+                                <ul>
+                                    <li>
+                                        <p>Plan and alleviate your employees' families potential stress by having them build a will, estate plan, power of attorney, and medical directive.</p>
+                                    </li>
+                                    <li>
+                                        <p>The majority of your employees aren't prepared for if the unfortunate happens.</p>
+                                    </li>
+                                </ul>
+                                <b>Opt your employees into building a plan today!</b>
                             </div>
                             <Button 
                                 onClick={() => navigate("/contactUs")}
@@ -115,7 +123,7 @@ const HomeComponent = () => {
                     </div>
 
 
-                    <span className="section-name">Power of Attorneys</span>
+                    <span className="section-name">Power of Attorney</span>
                     <div className="display">
                         <Col xs={12} className="text-column">
                             <div>
