@@ -1,10 +1,12 @@
 import React from "react";
 import { Grid, Row, Col, Button, Input } from "rsuite";
 import contactLogo from './contact.png';
+import beneficiariesLogo from './money.png';
 import emailLogo from './email.png';
 import buildingLogo from './building.png';
+import assetsLogo from './assets.png';
 import phoneLogo from './phone.png';
-import regionLogo from './region.png';
+import stateRegionLogo from './state.png';
 import cooperationLogo from './cooperation.png'
 
 
@@ -52,20 +54,36 @@ const ContactUsComponent = () => {
                         </Row>
                         <Row className="row">
                             <img
-                                src={regionLogo}
-                                alt="Region"
+                                src={stateRegionLogo}
+                                alt="StateRegion"
                                 className="icon"
                             />
-                            <Input placeholder="Region" className="input"/>
+                            <Input placeholder="State" className="input"/>
+                        </Row>
+                        <Row className="row">
+                            <img 
+                                src={beneficiariesLogo}
+                                alt="Beneficiaries"
+                                className="icon"
+                            />
+                            <Input placeholder="Beneficiaries" className="input"/>
+                        </Row>
+                        <Row className="row">
+                            <img 
+                                src={assetsLogo}
+                                alt="Assets"
+                                className="icon"
+                            />
+                            <Input placeholder="Assets" className="input"/>
                         </Row>
                     </Col>
-                    <Col style={{marginTop: "1%"}}>
+                    <Col style={{marginTop: "2%"}}>
                         <img
                             src={cooperationLogo}
                             alt="Cooperation"
                             className="image"
                         />
-                        <p>Looking to Connect Bestated ?</p>
+                        <p><b>Looking to connect with the Bestated team?</b></p>
                         <p>Please send us your contact information, and someone from our team will be in touch with you soon!</p>
                         <Button className="button">Submit</Button>
                     </Col>
