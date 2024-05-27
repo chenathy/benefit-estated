@@ -47,45 +47,6 @@ const HomeComponent = () => {
                     </div>
 
 
-                    <span className="section-name">Medical Directives</span>
-                    <div className="display">
-                        <Col xs={12} className="text-column">
-                            <div>
-                                <h2>Our jobs work to provide great benefits packages to attract and retain us</h2>
-                                <b>If life unfortunate events happen ...</b>
-                                <p>Employers could stop covering you and our families with a plan</p>
-                                <ul>
-                                    <li>Health Insurance</li>
-                                    <li>401ks</li>
-                                    <li>Maternal/Paternal Benefits</li>
-                                    <li>Education Reimbursements</li>
-                                    <li>Short Term, Long Term Disability Coverage</li>
-                                    <li>Life Insurance Policies</li>
-                                    <li>etc ...</li>
-                                </ul>
-                                <Button 
-                                        onClick={() => navigate("/contactUs")}
-                                        className="button"
-                                        >Sign Up Today
-                                </Button>
-                            </div>
-                        </Col>
-                        <Col xs={12} className="img-column">
-                            <div className="img">
-                                <img 
-                                    src={retainBenefitsLogo}
-                                    alt="Home"
-                                    style={{ width: '100%', height: 'auto' }}
-                                />
-                                <div class="text-overlay">
-                                    <h2>Bestated</h2>
-                                    <p>Greate Benefit Packages</p>
-                                </div>
-                            </div>
-                        </Col> 
-                    </div>
-
-
                     <span className="section-name">Employers Sponsored Wills</span>
                     <div className="display">
                         <Col xs={12} className="text-column">
@@ -148,7 +109,6 @@ const HomeComponent = () => {
                                 </div>
                             </div>
                         </Col>
-
                     </div>
 
 
@@ -178,11 +138,47 @@ const HomeComponent = () => {
                                 </div>
                             </div>
                         </Col>
-
                     </div>
 
+
+                    <span className="section-name">Medical Directives</span>
+                    <div className="display">
+                        <Col xs={12} className="text-column">
+                            <div>
+                                <h2>Our jobs work to provide great benefits packages to attract and retain us</h2>
+                                <b>If life unfortunate events happen ...</b>
+                                <p>Employers could stop covering you and our families with a plan</p>
+                                <ul>
+                                    <li>Health Insurance</li>
+                                    <li>401ks</li>
+                                    <li>Maternal/Paternal Benefits</li>
+                                    <li>Education Reimbursements</li>
+                                    <li>Short Term, Long Term Disability Coverage</li>
+                                    <li>Life Insurance Policies</li>
+                                    <li>etc ...</li>
+                                </ul>
+                                <Button 
+                                        onClick={() => navigate("/contactUs")}
+                                        className="button"
+                                        >Sign Up Today
+                                </Button>
+                            </div>
+                        </Col>
+                        <Col xs={12} className="img-column">
+                            <div className="img">
+                                <img 
+                                    src={retainBenefitsLogo}
+                                    alt="Home"
+                                    style={{ width: '100%', height: 'auto' }}
+                                />
+                                <div class="text-overlay">
+                                    <h2>Bestated</h2>
+                                    <p>Greate Benefit Packages</p>
+                                </div>
+                            </div>
+                        </Col> 
+                    </div>
                 </Row>
-                
             </Grid>
       </div>
     )
