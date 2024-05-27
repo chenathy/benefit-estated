@@ -1,10 +1,12 @@
 import React from "react";
 import { Grid, Row, Col, Button, Input } from "rsuite";
 import contactLogo from './contact.png';
+import beneficiariesLogo from './money.png';
 import emailLogo from './email.png';
 import buildingLogo from './building.png';
+import assetsLogo from './assets.png';
 import phoneLogo from './phone.png';
-import regionLogo from './region.png';
+import stateRegionLogo from './state.png';
 import cooperationLogo from './cooperation.png'
 
 
@@ -27,12 +29,28 @@ const ContactUsComponent = () => {
                             <Input placeholder="Last Name" className="input" style={{width: '200px'}}/>
                         </Row>
                         <Row className="row">
+                            <img 
+                                src={beneficiariesLogo}
+                                alt="Beneficiaries"
+                                className="icon"
+                            />
+                            <Input placeholder="Beneficiaries" className="input"/>
+                        </Row>
+                        <Row className="row">
                             <img
                                 src={buildingLogo}
                                 alt="Company"
                                 className="icon"
                             />
                             <Input placeholder="Company Name" className="input"/>
+                        </Row>
+                        <Row className="row">
+                            <img 
+                                src={assetsLogo}
+                                alt="Assets"
+                                className="icon"
+                            />
+                            <Input placeholder="Assets" className="input"/>
                         </Row>
                         <Row className="row">
                             <img
@@ -52,11 +70,11 @@ const ContactUsComponent = () => {
                         </Row>
                         <Row className="row">
                             <img
-                                src={regionLogo}
-                                alt="Region"
+                                src={stateRegionLogo}
+                                alt="StateRegion"
                                 className="icon"
                             />
-                            <Input placeholder="Region" className="input"/>
+                            <Input placeholder="State" className="input"/>
                         </Row>
                     </Col>
                     <Col style={{marginTop: "1%"}}>
