@@ -51,14 +51,17 @@ const HomeComponent = () => {
                     <div className="display">
                         <Col xs={12} className="text-column">
                             <div>
-                                <h2>First Employer-Sponsored Will, POA, and Medical Directive Benefit for Leading Companies</h2>
-                                <b>If life unfortunate events happen ...</b>
-                                <p>Our platform takes care of: </p>
+                                <h2>Bestated is the paradigm shifting platform for leading, innovative companies. </h2>
+                                <h2>We are the first Employer-sponsored Will, POA, and Medical Directive Benefit platform.</h2>
+                                <br/>
+                                <p>Our platform connects your employees with our attorney partners so that your employees can be fully focused on their jobs/careers.</p>
+                                <b>By adding this to your benefit, you will be able to attract and retain leading talent.</b>
+                                <p>Our platform takes care of your employees: </p>
                                 <ul>
-                                    <li>Employees</li>
-                                    <li>Assets</li>
-                                    <li>Decision Making</li>
-                                    <li>etc...</li>
+                                    <li>Wills</li>
+                                    <li>Estate Planning</li>
+                                    <li>Power of Attorney</li>
+                                    <li>Medical Directives</li>
                                 </ul>
                                 <Button 
                                         onClick={() => navigate("/contactUs")}
