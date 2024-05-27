@@ -145,18 +145,12 @@ const HomeComponent = () => {
                     <div className="display">
                         <Col xs={12} className="text-column">
                             <div>
-                                <h2>Our jobs work to provide great benefits packages to attract and retain us</h2>
-                                <b>If life unfortunate events happen ...</b>
-                                <p>Employers could stop covering you and our families with a plan</p>
-                                <ul>
-                                    <li>Health Insurance</li>
-                                    <li>401ks</li>
-                                    <li>Maternal/Paternal Benefits</li>
-                                    <li>Education Reimbursements</li>
-                                    <li>Short Term, Long Term Disability Coverage</li>
-                                    <li>Life Insurance Policies</li>
-                                    <li>etc ...</li>
-                                </ul>
+                                <h2>Our jobs and careers work to provide great benefits packages to attract and retain us</h2>
+                                <p>In life, unfortunate events happen. </p>
+                                <p>Too many Americans, especially young Americans, 
+                                    are ill-prepared if worse comes to worst and there is an unexpected death 
+                                    or a substantial brain injury where employees are left in a dire circumstance.
+                                </p>
                                 <Button 
                                         onClick={() => navigate("/contactUs")}
                                         className="button"
