@@ -30,13 +30,11 @@ const HomeComponent = () => {
                                 <h2>Medical Directives</h2>
                                 <h2>Power of Attorneys</h2>
                             </div>
-
                             <Button 
-                                className="button"
-                                size="lg"
-                                onClick={() => navigate("/contactUs")}
-                                >Sign Up Today
-                            </Button>
+                                        onClick={() => navigate("/contactUs")}
+                                        className="button"
+                                        >Sign Up Today
+                                </Button>
                         </Col>
                         
                         <Col xs={12} className="img-column">
@@ -74,11 +72,6 @@ const HomeComponent = () => {
                                     <li>Power of Attorney</li>
                                     <li>Medical Directives</li>
                                 </ul>
-                                <Button 
-                                        onClick={() => navigate("/contactUs")}
-                                        className="button"
-                                        >Sign Up Today
-                                </Button>
                             </div>
                         </Col>
                         <Col xs={12} className="img-column">
@@ -124,11 +117,6 @@ const HomeComponent = () => {
                                 </ul>
                                 <b>Opt your employees into building a plan today!</b>
                             </div>
-                            <Button 
-                                onClick={() => navigate("/contactUs")}
-                                className="button"
-                                >Sign Up Today
-                            </Button>
                         </Col>
                         <Col xs={12} className="img-column">
                             <div className="img"> 
@@ -153,11 +141,6 @@ const HomeComponent = () => {
                                 <p>Should life take an unfortunate turn, your employees need a plan in place. </p>
                                 <p>With the Bestated platform, you will be able to empower your employees so that their families need to step in and make life decisions.</p>   
                             </div>
-                            <Button 
-                                onClick={() => navigate("/contactUs")}
-                                className="button"
-                                >Sign Up Today
-                            </Button>
                         </Col>
                         <Col xs={12} className="img-column">
                             <div className="img"> 
@@ -185,11 +168,6 @@ const HomeComponent = () => {
                                     are ill-prepared if worse comes to worst and there is an unexpected death 
                                     or a substantial brain injury where employees are left in a dire circumstance.
                                 </p>
-                                <Button 
-                                        onClick={() => navigate("/contactUs")}
-                                        className="button"
-                                        >Sign Up Today
-                                </Button>
                             </div>
                         </Col>
                         <Col xs={12} className="img-column">
