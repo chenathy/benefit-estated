@@ -25,7 +25,7 @@ const EmployersComponent = () => {
                                     You offer leading compensation and benefits. 
                                 </p>
                                 <p>
-                                    However, according to a 2022 CNBC <a href="https://www.cnbc.com/2022/04/11/67percent-of-americans-have-no-estate-plan-heres-how-to-get-started-on-one.html#:~:text=and%20the%20Advisor-,67%25%20of%20Americans%20have%20no%20estate%20plan%2C%20survey%20finds.,to%20get%20started%20on%20one&text=Covid%2D19%20has%20increased%20Americans,Americans%20have%20established%20estate%20plans." target="_blank">article</a>, 
+                                    However, according to a 2022 CNBC <a href="https://www.cnbc.com/2022/04/11/67percent-of-americans-have-no-estate-plan-heres-how-to-get-started-on-one.html#:~:text=and%20the%20Advisor-,67%25%20of%20Americans%20have%20no%20estate%20plan%2C%20survey%20finds.,to%20get%20started%20on%20one&text=Covid%2D19%20has%20increased%20Americans,Americans%20have%20established%20estate%20plans." target="_blank" rel="noreferrer">article</a>, 
                                     67% of Americans, don’t have a will! It’s probably closer to 75-80% if you remove the Baby Boomers too! 
                                     There is research which show that with 401ks, companies that opt employees in by default, leads to a <b>significantly higher enrollment in their 401k plans.</b> 
                                 </p>

@@ -4,7 +4,6 @@ import { NavLink } from 'react-router-dom';
 import './NavBar.css';
 import MenuIcon from '../Menu/MenuIcon';
 import SidePage from '../Menu/SidePage';
-import { Nav } from 'rsuite';
 
 
 const Navbar = () => {

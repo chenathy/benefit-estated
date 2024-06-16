@@ -11,7 +11,6 @@ import cooperationLogo from './cooperation.png'
 
 
 const ContactUsComponent = () => {
-
     const [formData, setFormData] = useState({
         firstName: '',
         lastName: '',
@@ -38,23 +37,24 @@ const ContactUsComponent = () => {
         e.preventDefault();
         
         try {
-          const response = await fetch('http://localhost:3000/submit', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(formData),
-          });
-          if (response.ok) {
-            alert('Data submitted successfully!');
-          } else {
-            alert('Failed to submit data.');
-          }
+            const response = await fetch(`http://localhost:${process.env.REACT_APP_BACKEND_PORT}/submit`, {
+                method: 'POST',
+                headers: {
+                'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.ok) {
+                alert('Your Info has been submitted successfully!');
+            } else {
+                alert('Failed to submit data.');
+            }
         } catch (error) {
-          console.error('Error submitting data:', error);
-          alert('An error occurred while submitting data.');
+            console.error('Error submitting data:', error);
+            alert('An error occurred while submitting data.');
         }
-      };
+    };
 
     return (
         <div className="ContactUs">
@@ -119,7 +119,7 @@ const ContactUsComponent = () => {
                                 alt="Assets"
                                 className="icon"
                             />
-                            <Input name="assets" value={formData.beneficiaries} placeholder="Assets" className="input" onChange={handleChange}/>
+                            <Input name="assets" value={formData.assets} placeholder="Assets" className="input" onChange={handleChange}/>
                         </Row>
                     </Col>
                     <Col style={{marginTop: "2%"}}>
