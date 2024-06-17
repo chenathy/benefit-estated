@@ -22,25 +22,39 @@ const MainPageComponent = () => {
           .catch(error => console.error('Error fetching data:', error));
     }, []);
 
+    // return (
+    //     <div>
+    //         {data ? (
+    //             <Router>
+    //                 <Navbar />
+    //                 <Routes>
+    //                     <Route path='/' element={<HomeComponent/>} />
+    //                     <Route path='/about' element={<AboutComponent/>} />
+    //                     <Route path='/contactUs' element={<ContactUsComponent/>} />
+    //                     <Route path='/employees' element={<EmployeesComponent/>} />
+    //                     <Route path='/employers' element={<EmployersComponent/>} />
+    //                     <Route path='/attorneys' element={<AttorneyComponent/>} />                
+    //                     <Route path='/benefit-estated' element={<HomeComponent/>} /> 
+    //                 </Routes>
+    //             </Router>
+    //         ) : (
+    //             <div>Loading...</div>
+    //         )}
+    //     </div>
+    // )
     return (
-        <div>
-            {data ? (
-                <Router>
-                    <Navbar />
-                    <Routes>
-                        <Route path='/' element={<HomeComponent/>} />
-                        <Route path='/about' element={<AboutComponent/>} />
-                        <Route path='/contactUs' element={<ContactUsComponent/>} />
-                        <Route path='/employees' element={<EmployeesComponent/>} />
-                        <Route path='/employers' element={<EmployersComponent/>} />
-                        <Route path='/attorneys' element={<AttorneyComponent/>} />                
-                        <Route path='/benefit-estated' element={<HomeComponent/>} /> 
-                    </Routes>
-                </Router>
-            ) : (
-                <div>Loading...</div>
-            )}
-        </div>
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route path='/' element={<HomeComponent/>} />
+                <Route path='/about' element={<AboutComponent/>} />
+                <Route path='/contactUs' element={<ContactUsComponent/>} />
+                <Route path='/employees' element={<EmployeesComponent/>} />
+                <Route path='/employers' element={<EmployersComponent/>} />
+                <Route path='/attorneys' element={<AttorneyComponent/>} />                
+                <Route path='/benefit-estated' element={<HomeComponent/>} /> 
+            </Routes>
+        </Router>
     )
         
 };
