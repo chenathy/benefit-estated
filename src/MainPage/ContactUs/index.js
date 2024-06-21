@@ -37,7 +37,7 @@ const ContactUsComponent = () => {
         e.preventDefault();
         
         try {
-            const response = await fetch(`http://localhost:${process.env.REACT_APP_BACKEND_PORT}/submit`, {
+            const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}:${process.env.REACT_APP_BACKEND_PORT}/submit`, {
                 method: 'POST',
                 headers: {
                 'Content-Type': 'application/json',

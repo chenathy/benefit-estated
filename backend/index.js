@@ -22,5 +22,5 @@ APP.use('/', submitRoutes);
 
 
 APP.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+    console.log(`Server running at http://0.0.0.0:${PORT}`);
 });
