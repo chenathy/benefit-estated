@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/benefit-estated/static/css/main.808090ed.css",
-    "main.js": "/benefit-estated/static/js/main.bb3db46f.js",
+    "main.js": "/benefit-estated/static/js/main.df286d83.js",
     "static/js/453.9d2f681c.chunk.js": "/benefit-estated/static/js/453.9d2f681c.chunk.js",
     "static/media/forAttorneys.png": "/benefit-estated/static/media/forAttorneys.9e71c1ffd326f604c78d.png",
     "static/media/forEmployers.png": "/benefit-estated/static/media/forEmployers.3e4b4102173a61b076cc.png",
@@ -26,11 +26,11 @@
     "static/media/contact.png": "/benefit-estated/static/media/contact.3586129c4b8a0f1ba697.png",
     "index.html": "/benefit-estated/index.html",
     "main.808090ed.css.map": "/benefit-estated/static/css/main.808090ed.css.map",
-    "main.bb3db46f.js.map": "/benefit-estated/static/js/main.bb3db46f.js.map",
+    "main.df286d83.js.map": "/benefit-estated/static/js/main.df286d83.js.map",
     "453.9d2f681c.chunk.js.map": "/benefit-estated/static/js/453.9d2f681c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.808090ed.css",
-    "static/js/main.bb3db46f.js"
+    "static/js/main.df286d83.js"
   ]
 }
