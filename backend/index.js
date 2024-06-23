@@ -10,7 +10,7 @@ import submitRoutes from './submit.js';
 
 
 const APP = express();
-const PORT = process.env.REACT_APP_BACKEND_PORT || 3001;
+const PORT = process.env.REACT_APP_BACKEND_PORT || 443;
 
 // SSL/TLS certificates
 const credentials = { 
