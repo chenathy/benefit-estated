@@ -18,6 +18,7 @@ APP.use(session({
 
 APP.use(cors());
 APP.use(bodyParser.json());
+APP.get('/', (req, res) => res.json(`My API running at port ${PORT}...`));
 APP.use('/', submitRoutes);
 
 
